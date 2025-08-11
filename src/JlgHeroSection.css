@@ -14,12 +14,15 @@
 .JlgHeroSection::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  inset: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.55) 0%,
+    /* dark at top */ rgba(0, 0, 0, 0.45) 40%,
+    /* still dark mid-way */ rgba(0, 0, 0, 0.25) 70%,
+    /* lighter */ rgba(0, 0, 0, 0) 100% /* fully transparent at bottom */
+  );
   z-index: 1;
+  pointer-events: none; /* so clicks go through */
 }
 
 .JlgHeroSection > * {
