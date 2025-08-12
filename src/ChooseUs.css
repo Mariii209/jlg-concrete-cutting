@@ -1,0 +1,94 @@
+.ChooseUs {
+  padding: 7%;
+  background: #f5f5f5;
+}
+
+.ChooseUs h2 {
+  color: #2d2d2d;
+  text-align: center;
+  font-size: 30.639px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.ChooseUs .ChooseUsDescription {
+  color: #6b7280;
+  text-align: center;
+  font-size: 14.689px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+  margin: 21px 0 56px;
+}
+
+.ChooseUs .ChooseUsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.ChooseUs .ChooseUsContainer .ChooseUsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.ChooseUs .ChooseUsContainer .ChooseUsCard i {
+  color: #ffffff;
+  padding: 14px;
+  background: #ff6b00;
+  border-radius: 33554400px;
+  font-size: 28px;
+}
+
+.ChooseUs .ChooseUsContainer .ChooseUsCard h3 {
+  color: #2d2d2d;
+  text-align: center;
+  font-size: 17.09px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24.5px;
+}
+
+.ChooseUs .ChooseUsContainer .ChooseUsCard p {
+  color: #6b7280;
+  text-align: center;
+  font-size: 12.906px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+@media (max-width: 950px) {
+  .ChooseUs .ChooseUsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .ChooseUs h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 560px) {
+  .ChooseUs .ChooseUsContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  .ChooseUs h2 {
+    font-size: 20px;
+  }
+
+  .ChooseUs .ChooseUsDescription {
+    font-size: 13px;
+  }
+
+  .ChooseUs .ChooseUsContainer .ChooseUsCard h3 {
+    font-size: 16px;
+  }
+}
