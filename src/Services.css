@@ -1,0 +1,129 @@
+.Services {
+  padding: 7%;
+}
+
+.Services h2 {
+  color: #2d2d2d;
+  text-align: center;
+  font-size: 30.639px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.Services .ServicesDescription {
+  color: #6b7280;
+  text-align: center;
+  font-size: 14.566px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+  max-width: 575px;
+  width: 100%;
+  margin: 25px auto 62px;
+}
+
+.Services .ServicesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 28px;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Services .ServicesContainer .ServiceCard {
+  border-radius: 9.25px;
+  border: 2px solid #e5e7eb;
+  background: #fff;
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 330px;
+  gap: 15px;
+  height: 100%;
+}
+
+.Services .ServicesContainer .ServiceCard .ServiceTitle {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.Services .ServicesContainer .ServiceCard .ServiceTitle i {
+  font-size: 21px;
+  color: #ff6b00;
+  padding: 7px;
+  border-radius: 3.5px;
+  background: rgba(255, 107, 0, 0.1);
+}
+
+.Services .ServicesContainer .ServiceCard .ServiceTitle h4 {
+  color: #2d2d2d;
+  font-size: 13.125px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.Services .ServicesContainer .ServiceCard p {
+  color: #6b7280;
+  font-size: 12.906px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.Services .ServicesContainer .ServiceCard ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.Services .ServicesContainer .ServiceCard ul li {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.Services .ServicesContainer .ServiceCard ul li i {
+  color: #ff6b00;
+  font-size: 14px;
+}
+
+.Services .ServicesContainer .ServiceCard ul li p {
+  color: #2d2d2d;
+  font-size: 11.339px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+}
+
+@media (max-width: 828px) {
+  .Services h2 {
+    font-size: 25px;
+  }
+
+  .Services .ServicesContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+}
+
+@media (max-width: 560px) {
+  .Services h2 {
+    font-size: 20px;
+  }
+
+  .Services .ServicesContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Services .ServicesDescription {
+    font-size: 13px;
+  }
+}
