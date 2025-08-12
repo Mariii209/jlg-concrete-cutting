@@ -2,6 +2,7 @@ import "./App.css";
 import JlgHeroSection from "./JlgHeroSection";
 import Services from "./Services";
 import ChooseUs from "./ChooseUs";
+import Serve from "./Serve";
 import Locations from "./Locations";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <JlgHeroSection />
       <Services />
       <ChooseUs />
+      <Serve />
       <Locations />
     </div>
   );

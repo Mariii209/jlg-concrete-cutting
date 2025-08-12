@@ -1,0 +1,66 @@
+.Serve {
+  padding: 7%;
+}
+
+.Serve h2 {
+  color: #2d2d2d;
+  text-align: center;
+  font-size: 25.478px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31.5px;
+}
+
+.Serve .ServeDescription {
+  color: #6b7280;
+  text-align: center;
+  font-size: 13.016px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 14px 0 56px;
+}
+
+.Serve .ServeContainer {
+  max-width: 1300px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.Serve .ServeContainer .ServeCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.Serve .ServeContainer .ServeCard i {
+  color: #ff6b00;
+  font-size: 25px;
+}
+
+.Serve .ServeContainer .ServeCard h3 {
+  color: #2d2d2d;
+  text-align: center;
+  font-size: 11.916px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.5px;
+}
+
+@media (max-width: 950px) {
+  .Serve .ServeContainer {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+  }
+}
+
+@media (max-width: 950px) {
+  .Serve .ServeContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+  }
+}
