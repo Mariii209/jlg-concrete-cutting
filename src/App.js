@@ -2,6 +2,7 @@ import "./App.css";
 import JlgHeroSection from "./JlgHeroSection";
 import Services from "./Services";
 import ChooseUs from "./ChooseUs";
+import Locations from "./Locations";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <JlgHeroSection />
       <Services />
       <ChooseUs />
+      <Locations />
     </div>
   );
 }
