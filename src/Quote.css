@@ -1,0 +1,214 @@
+.Quote {
+  background: #2d2d2d;
+  padding: 7%;
+}
+
+.Quote .FullInfo {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.Quote h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 25.581px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31.5px;
+}
+
+.Quote .QuoteDescription {
+  color: #fff;
+  text-align: center;
+  font-size: 14.566px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+  margin: 21px 0 28px;
+}
+
+.Quote form {
+  max-width: 700px;
+  width: 100%;
+  border-radius: 9.25px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  padding: 30px;
+}
+
+.Quote form .UserInfo {
+  display: flex;
+  gap: 21px;
+  margin-bottom: 21px;
+}
+
+.Quote form .UserInfo .Container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  flex: 1;
+}
+
+.Quote form .UserInfo .Container label {
+  color: #2d2d2d;
+  text-align: center;
+  font-size: 11.723px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.5px;
+}
+
+.Quote form .UserInfo .Container input {
+  border-radius: 3.25px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  color: rgba(45, 45, 45, 0.5);
+  font-size: 13.125px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+  width: 100%;
+}
+
+.Quote form .Service,
+.Message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 21px;
+}
+
+.Quote form .Service,
+.Message label {
+  text-align: center;
+  color: #2d2d2d;
+  font-size: 11.723px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.5px;
+}
+
+.Quote form .Service input,
+.Message textarea {
+  border-radius: 3.25px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  color: rgba(45, 45, 45, 0.5);
+  font-size: 13.125px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+}
+
+.Quote form .Message textarea {
+  height: 85px;
+}
+
+.Quote button {
+  border-radius: 3.25px;
+  background: #ff6b00;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 11px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 11.916px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.5px;
+}
+
+.Quote form span {
+  display: block;
+  color: #6b7280;
+  text-align: center;
+  font-family: Inter;
+  font-size: 9.844px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  margin-top: 14px;
+}
+
+.Quote .Information {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.Quote .Information h3 {
+  color: #fff;
+  font-size: 16.816px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24.5px;
+}
+
+.Quote .Information .MoreInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.Quote .Information .MoreInfoContainer a {
+  display: flex;
+  text-decoration: none;
+  gap: 14px;
+}
+
+.Quote .Information .MoreInfoContainer a i {
+  border-radius: 33554400px;
+  background: #ff6b00;
+  padding: 11px;
+  color: #ffffff;
+  font-size: 21px;
+}
+
+.Quote .Information .MoreInfoContainer a .InfoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.Quote .Information .MoreInfoContainer a .InfoItem p {
+  color: #fff;
+  font-size: 14.442px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24.5px;
+}
+
+.Quote .Information .MoreInfoContainer a .InfoItem span {
+  color: #fff;
+  font-size: 13.125px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  opacity: 0.75;
+}
+
+@media (max-width: 896px) {
+  .Quote .FullInfo {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .Quote form .UserInfo {
+    flex-direction: column;
+  }
+
+  .Quote h2 {
+    font-size: 20px;
+  }
+
+  .Quote .QuoteDescription {
+    font-size: 12px;
+  }
+}

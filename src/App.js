@@ -4,6 +4,7 @@ import Services from "./Services";
 import ChooseUs from "./ChooseUs";
 import Serve from "./Serve";
 import Locations from "./Locations";
+import Quote from "./Quote";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ChooseUs />
       <Serve />
       <Locations />
+      <Quote />
     </div>
   );
 }
