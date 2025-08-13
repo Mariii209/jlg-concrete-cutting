@@ -7,7 +7,7 @@ export default function Quote() {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "e32146bc-af1d-40dd-9267-c98c6f84b02b");
+    formData.append("access_key", "d592f3d6-2dac-9dd9-a5f665be3524");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -50,7 +50,7 @@ export default function Quote() {
           <input
             type="hidden"
             name="access_key"
-            value="e32146bc-af1d-40dd-9267-c98c6f84b02b"
+            value="d592f3d6-2dac-9dd9-a5f665be3524"
           ></input>
 
           <div className="UserInfo">

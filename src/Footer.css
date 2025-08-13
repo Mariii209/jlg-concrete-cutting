@@ -1,0 +1,149 @@
+.Footer {
+  background: #fff;
+  padding: 7%;
+}
+
+.Footer .FooterInfo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto 5%;
+}
+
+.Footer .FooterSection .LogoContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Footer .FooterSection .LogoContainer img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.Footer .FooterSection h3 {
+  color: #2d2d2d;
+  font-size: 13.672px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.Footer .FooterSection span {
+  color: #6b7280;
+  font-family: Inter;
+  font-size: 11.531px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px; /* 151.762% */
+}
+
+.Footer .FooterSection p {
+  color: #6b7280;
+  font-size: 11.339px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+}
+
+.Footer .FooterSection .Description {
+  margin: 17px 0 18px;
+}
+
+.Footer .FooterSection .Licensed {
+  color: #2d2d2d;
+  font-size: 11.723px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.5px;
+}
+
+.Footer .ServicesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.Footer .MoreUs {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.Footer .Hours {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.Footer .FooterSection h4 {
+  color: #2d2d2d;
+  font-size: 13.563px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  margin-bottom: 14px;
+}
+
+.Footer .Us {
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer .Us a {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 11.531px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+}
+
+.Footer .FooterSection .HourContainer span {
+  color: #6b7280;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+  opacity: 0.7;
+}
+
+.Footer .Line {
+  border-top: 1px solid gray;
+  opacity: 0.3;
+}
+
+.Footer .MoreInfo {
+  text-align: center;
+  display: flex;
+  gap: 7px;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+
+.Footer .MoreInfo p {
+  color: #6b7280;
+  font-size: 11.339px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+}
+
+@media (max-width: 950px) {
+  .Footer .FooterInfo {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .Footer .MoreInfo {
+    flex-direction: column;
+  }
+}

@@ -5,6 +5,7 @@ import ChooseUs from "./ChooseUs";
 import Serve from "./Serve";
 import Locations from "./Locations";
 import Quote from "./Quote";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Serve />
       <Locations />
       <Quote />
+      <Footer />
     </div>
   );
 }
