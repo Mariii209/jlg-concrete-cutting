@@ -129,9 +129,13 @@ export default function Quote() {
         <div className="Information">
           <h3>Contact Information</h3>
           <div className="MoreInfoContainer">
-            <a href="/">
+            <a
+              href="tel:+12093038897"
+              className="CallToday"
+              aria-label="Call (209) 303-8897"
+            >
               <div>
-                <i class="fa-solid fa-phone"></i>
+                <i className="fa-solid fa-phone"></i>
               </div>
               <div className="InfoItem">
                 <p>(209) 303-8897</p>
@@ -139,9 +143,13 @@ export default function Quote() {
               </div>
             </a>
 
-            <a href="/">
+            <a
+              href="mailto:alejandro@jlgconcretesawcutting.com?subject=Quote%20request&body=Hi%20JLG%2C%20I%27d%20like%20a%20quote%20for..."
+              className="ContactLink"
+              aria-label="Email alejandro at jlg concrete saw cutting"
+            >
               <div>
-                <i class="fa-solid fa-envelope"></i>
+                <i className="fa-solid fa-envelope"></i>
               </div>
               <div className="InfoItem">
                 <p>alejandro@jlgconcretesawcutting.com</p>
@@ -149,9 +157,9 @@ export default function Quote() {
               </div>
             </a>
 
-            <a href="/">
+            <div className="Days">
               <div>
-                <i class="fa-solid fa-clock"></i>
+                <i className="fa-solid fa-clock"></i>
               </div>
               <div className="InfoItem">
                 <div>
@@ -160,7 +168,7 @@ export default function Quote() {
                 </div>
                 <span>24/7 emergency response</span>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>

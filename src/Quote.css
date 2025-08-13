@@ -156,13 +156,15 @@
   gap: 28px;
 }
 
-.Quote .Information .MoreInfoContainer a {
+.Quote .Information .MoreInfoContainer a,
+.Days {
   display: flex;
   text-decoration: none;
   gap: 14px;
 }
 
-.Quote .Information .MoreInfoContainer a i {
+.Quote .Information .MoreInfoContainer a i,
+.Days i {
   border-radius: 33554400px;
   background: #ff6b00;
   padding: 11px;
@@ -170,13 +172,15 @@
   font-size: 21px;
 }
 
-.Quote .Information .MoreInfoContainer a .InfoItem {
+.Quote .Information .MoreInfoContainer a .InfoItem,
+.Days .InfoItem {
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
 
-.Quote .Information .MoreInfoContainer a .InfoItem p {
+.Quote .Information .MoreInfoContainer a p,
+.Days .InfoItem p {
   color: #fff;
   font-size: 14.442px;
   font-style: normal;
@@ -184,7 +188,8 @@
   line-height: 24.5px;
 }
 
-.Quote .Information .MoreInfoContainer a .InfoItem span {
+.Quote .Information .MoreInfoContainer a span,
+.Days .InfoItem span {
   color: #fff;
   font-size: 13.125px;
   font-style: normal;
