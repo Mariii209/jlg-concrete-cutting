@@ -18,12 +18,20 @@ export default function JlgHeroSection() {
         selective removal. Fast mobilization, clean cuts, OSHA compliant.
       </p>
       <div className="HeroSectionButtons">
-        <a href="/" className="CallToday">
+        <a
+          href="tel:+12093038897"
+          className="CallToday"
+          aria-label="Call (209) 303-8897"
+        >
           <i class="fa-solid fa-phone"></i>
           Call (209) 303-8897
         </a>
-        <a href="#schedule-service" className="Quote">
-          Get Same-Day Quote
+        <a
+          href="#schedule-service"
+          aria-label="Start your quote now"
+          className="Quote"
+        >
+          Start Your Quote Now
         </a>
       </div>
       <div className="HeroStats">
@@ -33,7 +41,7 @@ export default function JlgHeroSection() {
         </div>
 
         <div className="StatItem">
-          <h5>2hrs</h5>
+          <h5>24hrs</h5>
           <p>Avg Response</p>
         </div>
 

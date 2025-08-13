@@ -36,11 +36,11 @@ export default function Footer() {
 
           <div className="MoreUs">
             <a href="tel:2093038897">
-              <i class="fa-solid fa-phone"></i>(209) 303-8897
+              <i className="fa-solid fa-phone"></i>(209) 303-8897
             </a>
 
             <a href="alejandro@jlgconcretesawcutting.com">
-              <i class="fa-regular fa-envelope"></i>
+              <i className="fa-regular fa-envelope"></i>
               alejandro@jlgconcretesawcutting.com
             </a>
           </div>

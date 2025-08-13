@@ -36,19 +36,6 @@ export default function Locations() {
             <li>Central Valley</li>
           </ul>
         </div>
-
-        <div className="LocationCard">
-          <i class="fa-solid fa-gear"></i>
-          <h3>Northern California</h3>
-          <ul>
-            <li>San Francisco Bay Area</li>
-            <li>Sacramento</li>
-            <li>San Jose</li>
-            <li>Oakland</li>
-            <li>Santa Rosa</li>
-            <li>+ All CA Counties</li>
-          </ul>
-        </div>
       </div>
     </div>
   );
