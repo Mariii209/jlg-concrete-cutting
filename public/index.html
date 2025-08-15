@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Basic -->
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#111111" />
+
+    <!-- Title & Meta Description -->
+    <title>
+      Concrete Saw Cutting — Central Valley & Bay Area | JLG Concrete Saw
+      Cutting
+    </title>
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="OSHA-certified concrete & asphalt saw cutting across the Central Valley and Bay Area. Same-day quotes and 24/7 emergency response. Call (209) 303-8897."
     />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Canonical (UPDATE to your real domain) -->
+    <link rel="canonical" href="https://your-domain.com/" />
+
+    <!-- Open Graph (Social Preview) -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Concrete Saw Cutting — Central Valley & Bay Area"
+    />
+    <meta
+      property="og:description"
+      content="OSHA-certified concrete & asphalt saw cutting. Same-day quotes. 24/7 emergency response."
+    />
+    <meta property="og:url" content="https://your-domain.com/" />
+    <!-- Use an absolute URL for og:image -->
+    <meta property="og:image" content="https://your-domain.com/og-hero.jpg" />
+    <meta property="og:site_name" content="JLG Concrete Saw Cutting" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Concrete Saw Cutting — Central Valley & Bay Area"
+    />
+    <meta
+      name="twitter:description"
+      content="OSHA-certified saw cutting. Same-day quotes. 24/7 emergencies."
+    />
+    <meta name="twitter:image" content="https://your-domain.com/og-hero.jpg" />
+
+    <!-- Google Search Console (replace with your code if different) -->
+    <meta
+      name="google-site-verification"
+      content="JpG7tZ24TuIid_4RekdTAaMoB9fs8Wrf21vD7Kvf7QQ"
+    />
+
+    <!-- PWA / Icons (CRA defaults) -->
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,12 +66,53 @@
       rel="stylesheet"
     />
 
+    <!-- Font Awesome (kit) -->
     <script
       src="https://kit.fontawesome.com/6cb7ca6f12.js"
       crossorigin="anonymous"
     ></script>
 
-    <title>React App</title>
+    <!-- LocalBusiness / Contractor Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Contractor",
+        "name": "JLG Concrete Saw Cutting",
+        "url": "https://your-domain.com/",
+        "telephone": "+12093038897",
+        "email": "alejandro@jlgconcretesawcutting.com",
+        "image": "https://your-domain.com/og-hero.jpg",
+        "description": "OSHA-certified concrete & asphalt saw cutting. Same-day quotes and 24/7 emergency response across the Central Valley and Bay Area.",
+        "areaServed": [
+          "Central Valley, CA",
+          "Modesto, CA",
+          "Turlock, CA",
+          "Manteca, CA",
+          "Stockton, CA",
+          "Merced, CA",
+          "San Francisco Bay Area, CA",
+          "San Francisco, CA",
+          "Oakland, CA",
+          "San Jose, CA"
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "06:00",
+            "closes": "20:00"
+          }
+        ],
+        "priceRange": "$$",
+        "sameAs": []
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
