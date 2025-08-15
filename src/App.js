@@ -1,4 +1,5 @@
 import "./App.css";
+import NavBar from "./NavBar";
 import JlgHeroSection from "./JlgHeroSection";
 import Services from "./Services";
 import ChooseUs from "./ChooseUs";
@@ -10,6 +11,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <JlgHeroSection />
       <Services />
       <ChooseUs />

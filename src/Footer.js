@@ -39,7 +39,7 @@ export default function Footer() {
               <i className="fa-solid fa-phone"></i>(209) 303-8897
             </a>
 
-            <a href="alejandro@jlgconcretesawcutting.com">
+            <a href="mailto:alejandro@jlgconcretesawcutting.com">
               <i className="fa-regular fa-envelope"></i>
               alejandro@jlgconcretesawcutting.com
             </a>

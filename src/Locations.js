@@ -6,34 +6,34 @@ export default function Locations() {
     <div className="Locations">
       <h2>Where We Cut</h2>
       <p className="LocationDescription">
-        Professional concrete saw cutting across California. Fast mobilization
-        to your job site statewide.
+        Professional concrete saw cutting across the Central Valley & Bay Area.
+        Fast mobilization to your job site.
       </p>
 
       <div className="LocationContainer">
         <div className="LocationCard">
           <i class="fa-solid fa-location-dot"></i>
-          <h3>Southern California</h3>
+          <h3>Central Valley</h3>
           <ul>
-            <li>Los Angeles</li>
-            <li>San Diego</li>
-            <li>Orange County</li>
-            <li>Riverside</li>
-            <li>San Bernardino</li>
-            <li>Ventura</li>
+            <li>Modesto</li>
+            <li>Turlock</li>
+            <li>Manteca</li>
+            <li>Stockton</li>
+            <li>Merced</li>
+            <li>+ more cities</li>
           </ul>
         </div>
 
         <div className="LocationCard">
           <i class="fa-solid fa-truck"></i>
-          <h3>Central California</h3>
+          <h3>Bay Area</h3>
           <ul>
-            <li>Fresno</li>
-            <li>Bakersfield</li>
-            <li>Stockton</li>
-            <li>Modesto</li>
-            <li>Salinas</li>
-            <li>Central Valley</li>
+            <li>San Francisco</li>
+            <li>Oakland</li>
+            <li>San Jose</li>
+            <li>Berkeley</li>
+            <li>Fremont</li>
+            <li>+ more cities</li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,271 @@
+.NavBar {
+  height: 70px;
+}
+
+.NavBar .NavBarInfo {
+  background: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 990;
+  background: #2d2d2d;
+}
+
+.NavBar .NavBarInfo .MainLogoInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.NavBar .NavBarInfo .MainLogoInfo h2 {
+  color: #fff;
+  font-size: 15.306px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24.5px;
+}
+
+.NavBar .NavBarInfo .MainLogoInfo p {
+  color: #fff;
+  font-size: 11.531px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+}
+
+.NavBar .NavBarInfo .LinksContainer {
+  display: flex;
+  gap: 28px;
+}
+
+.NavBar .NavBarInfo .LinksContainer a {
+  color: #fff;
+  text-align: center;
+  font-size: 11.531px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+  text-decoration: none;
+}
+
+.NavBar .NavBarInfo .BookingContainer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.NavBar .NavBarInfo .BookingContainer .PhomeInfo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+}
+
+.NavBar .NavBarInfo .BookingContainer .PhomeInfo i {
+  font-size: 14px;
+  color: #fff;
+}
+
+.NavBar .NavBarInfo .BookingContainer .PhomeInfo p {
+  color: #fff;
+  text-align: right;
+  font-family: Inter;
+  font-size: 12.797px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.4px;
+}
+
+.NavBar .NavBarInfo .BookingContainer .BookNow {
+  border-radius: 3.25px;
+  background: #ff6b00;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 13.563px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  padding: 5px 11px;
+}
+
+.NavBar .NavBarInfo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.NavBar .NavBarInfo .MenuToggle {
+  background: none;
+  border: none;
+  font-size: 23px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+/* Dark overlay when menu is open */
+.NavBar .OverLay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 998;
+}
+
+/* Side drawer menu */
+.NavBar .SideMenu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 75%;
+  height: 100%;
+  background-color: #f4f7fa;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  transition: right 0.3s ease;
+  overflow-y: auto;
+}
+
+.NavBar .SideMenu.Show {
+  right: 0;
+}
+
+.NavBar .SideMenu .CloseBtn {
+  background: none;
+  border: none;
+  font-size: 26px;
+  margin-left: auto;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Menu header */
+.NavBar .SideMenu .MenuHeader {
+  background: #2d2d2d;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 20px;
+}
+
+.NavBar .SideMenu .MenuHeader img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.NavBar .SideMenu .MenuHeader .HeadinTitle h3 {
+  color: #fff;
+  font-size: 16.68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+}
+
+.NavBar .SideMenu .MenuHeader .HeadinTitle p {
+  color: #dbeafe;
+  font-size: 13.453px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.NavBar .SideMenu .NavContactInfo {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.NavBar .SideMenu .NavContactInfo .MenuSectionTitle {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #6a7282;
+  font-family: Inter;
+  font-size: 10.336px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 135.45% */
+  letter-spacing: 0.525px;
+  text-transform: uppercase;
+}
+
+.NavBar .SideMenu .NavContactInfo ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.NavBar .SideMenu .NavContactInfo ul li p {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: #101828;
+  font-size: 13.344px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.NavBar .SideMenu .NavContactInfo ul li a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: #101828;
+}
+
+.NavBar .SideMenu .NavContactInfo ul li i {
+  color: #99a1af;
+  font-size: 17px;
+}
+
+/* Footer button */
+.MenuFooter {
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+.EmergencyBtn {
+  width: 100%;
+  background: #ff6b00;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 765px) {
+  .NavBar .NavBarInfo .MenuToggle {
+    display: block;
+  }
+
+  .NavBar .NavBarInfo .LinksContainer {
+    display: none;
+  }
+
+  .NavBar .NavBarInfo .BookingContainer {
+    display: none;
+  }
+}

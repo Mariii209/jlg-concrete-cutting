@@ -3,7 +3,7 @@ import "./Services.css";
 
 export default function Services() {
   return (
-    <div className="Services">
+    <div className="Services" id="servies">
       <h2>Our Specialized Services</h2>
       <p className="ServicesDescription">
         We focus exclusively on ground and flat saw cutting. No coring, no wall
